@@ -1,2 +1,30 @@
 apiVersion: v1
-entries: {}
+entries:
+  unifi-os-server:
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: 5.1.40
+    created: "2026-09-05T17:34:38.855581661Z"
+    description: Self-hosted UniFi OS Server for Kubernetes
+    digest: ba66c899bd71a96bc026b7d10f495654534fecef30de21baf56c5e8f1ae733f9
+    home: https://github.com/chrissnell/unifi-os-kubernetes
+    icon: https://avatars.githubusercontent.com/u/4292837?s=200&v=4
+    keywords:
+    - unifi
+    - ubiquiti
+    - networking
+    - controller
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: Chris Snell
+      url: https://github.com/chrissnell
+    name: unifi-os-server
+    sources:
+    - https://github.com/chrissnell/unifi-os-kubernetes
+    type: application
+    urls:
+    - https://github.com/silverbp/unifi-os-kubernetes/releases/download/chart-0.2.10/unifi-os-server-0.2.10.tgz
+    version: 0.2.10
+generated: "2026-09-05T17:34:38.855593338Z"
