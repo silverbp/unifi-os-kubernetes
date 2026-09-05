@@ -5,6 +5,9 @@ name: Check for new UniFi OS Server release
 # UOS version. If the version differs from what's pinned in docker/Dockerfile,
 # extracts the per-arch images, builds the multi-arch manifest, and opens a PR
 # updating the FROM tag and UOS_SERVER_VERSION.
+#
+# Fork note (silverbp): images publish to ghcr.io/silverbp/{uosserver,unifi-os-server};
+# docker/Dockerfile's UOSSERVER_IMAGE must point at ghcr.io/silverbp/uosserver.
 
 on:
   workflow_dispatch:
