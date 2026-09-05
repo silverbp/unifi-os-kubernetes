@@ -1,4 +1,5 @@
 ---
+# Fork (silverbp): registered on this fork by touching the file; behaviour unchanged.
 name: Extract uosserver image (linux/arm64)
 
 # arm64 sibling of extract-linux-amd64.yaml. Runs on the GitHub-hosted arm64

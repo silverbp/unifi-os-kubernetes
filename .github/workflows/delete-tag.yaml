@@ -1,4 +1,5 @@
 ---
+# Fork (silverbp): registered on this fork by touching the file; behaviour unchanged.
 name: Delete GHCR tag
 
 on:

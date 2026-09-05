@@ -1,4 +1,5 @@
 ---
+# Fork (silverbp): registered on this fork by touching the file; behaviour unchanged.
 name: Build uosserver multi-arch manifest
 
 # Combines the per-arch uosserver images extracted from the official installer

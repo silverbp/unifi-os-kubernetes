@@ -1,4 +1,5 @@
 ---
+# Fork (silverbp): registered on this fork by touching the file; behaviour unchanged.
 name: Release Helm chart
 
 # Packages the chart and publishes via chart-releaser to a `gh-pages` branch.

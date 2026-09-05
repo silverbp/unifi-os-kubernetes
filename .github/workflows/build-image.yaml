@@ -1,4 +1,5 @@
 ---
+# Fork (silverbp): registered on this fork by touching the file; behaviour unchanged.
 name: Build and publish unifi-os-server image
 
 # Builds the application image (our entrypoint layered on top of the
