@@ -10,12 +10,12 @@
 # the referenced uosserver tag. Both fields are bumped together by the
 # release-check workflow.
 
-ARG UOSSERVER_IMAGE=ghcr.io/chrissnell/uosserver
+ARG UOSSERVER_IMAGE=ghcr.io/silverbp/uosserver
 ARG UOSSERVER_TAG=7562a085048e-multiarch
 
 FROM ${UOSSERVER_IMAGE}:${UOSSERVER_TAG}
 
-LABEL org.opencontainers.image.source="https://github.com/chrissnell/unifi-os-kubernetes"
+LABEL org.opencontainers.image.source="https://github.com/silverbp/unifi-os-kubernetes"
 LABEL org.opencontainers.image.description="UniFi OS Server packaged for Docker and Kubernetes"
 LABEL org.opencontainers.image.licenses="MIT"
 
