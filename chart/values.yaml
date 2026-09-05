@@ -4,7 +4,7 @@
 # PID 1 and requires a privileged container with cgroup access.
 
 image:
-  repository: ghcr.io/chrissnell/unifi-os-server
+  repository: ghcr.io/silverbp/unifi-os-server
   # If unset, Chart.appVersion is used.
   tag: ""
   pullPolicy: IfNotPresent
